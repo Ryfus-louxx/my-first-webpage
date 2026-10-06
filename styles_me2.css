@@ -1,0 +1,45 @@
+table {
+box-sizing: border-box;
+border-color: gold;
+border-width: 5px;
+padding: 20px;
+margin: 5px;
+}
+.alignment {
+text-align: center;
+}
+caption.alignment {
+font-family: "Times New Roman", serif;
+}
+table {
+font-family: "Century Schoolbook";
+}
+th {
+background-color: #FF2400;
+}
+h1 {
+color: gold;
+}
+td.alignment {
+background-color: #7D807E;
+color: gold;
+}
+#quote {
+color: black;
+background-color: white;
+}
+#profile {
+background-color: #FF2400;
+}
+#site:link {
+color: gold;
+}
+#site:visited {
+color: silver;
+}
+#site:hover {
+color: bronze
+}
+#site:active {
+color: white
+}
