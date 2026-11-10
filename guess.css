@@ -1,0 +1,21 @@
+#page {
+  background-color: black;
+  font-family: "Times New Roman", Arial, serif;
+}
+/* Game Setup (Player 1):
+○ Upon initial page load, trigger a browser pop-up prompt asking Player 1 to enter a
+4-letter secret word.
+○ Store this word in memory for comparison against Player 2’s inputs.
+● User Interface (Player 2):
+○ Design an interface containing four distinct input boxes for Player 2 to type their letter
+guesses.
+○ Provide two action buttons: Submit and Reset.
+○ Dedicate a display container beneath each letter box to show the validation status.
+● Submit Action: When clicking Submit, compare Player 2’s entered letters against Player 1’s secret
+word index-by-index (should not be case-insensitive):
+○ Display a check mark (✔) beneath each correctly guessed letter in the correct position.
+○ Display an X mark (✖) beneath each incorrect letter.
+● Reset Action: When clicking Reset, clear all four input fields and clear the status marks beneath
+them without reloading the page.
+● New Game: Reload the page to restart the exercise and prompt for a new secret word.
+● You may use characters or images for the check/X marks. */
